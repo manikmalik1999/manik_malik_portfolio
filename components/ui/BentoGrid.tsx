@@ -2,6 +2,8 @@
 
 import { useState } from 'react';
 import { IoCopyOutline } from 'react-icons/io5';
+import Image from "next/image";
+
 
 // Also install this npm i --save-dev @types/react-lottie
 import Lottie from 'react-lottie';
@@ -61,147 +63,147 @@ export const BentoGridItem = ({
   };
   const items = [
     { content: <>
-        <img src="/techIcons/AndroidStudio.svg" alt="Android Studio" className="tech-icon" />
+        <Image src="/techIcons/AndroidStudio.svg" alt="Android Studio" className="tech-icon" />
         Android Studio
     </> },
     { content: <>
-        <img src="/techIcons/AWS.svg" alt="AWS" className="tech-icon" />
+        <Image src="/techIcons/AWS.svg" alt="AWS" className="tech-icon" />
         AWS
     </> },
     { content: <>
-        <img src="/techIcons/AzureDevops.svg" alt="Azure DevOps" className="tech-icon" />
+        <Image src="/techIcons/AzureDevops.svg" alt="Azure DevOps" className="tech-icon" />
         Azure DevOps
     </> },
     { content: <>
-        <img src="/techIcons/Confluence.svg" alt="Confluence" className="tech-icon" />
+        <Image src="/techIcons/Confluence.svg" alt="Confluence" className="tech-icon" />
         Confluence
     </> },
     { content: <>
-        <img src="/techIcons/CosmosDB.svg" alt="Cosmos DB" className="tech-icon" />
+        <Image src="/techIcons/CosmosDB.svg" alt="Cosmos DB" className="tech-icon" />
         Cosmos DB
     </> },
     { content: <>
-        <img src="/techIcons/CSS3.svg" alt="CSS3" className="tech-icon" />
+        <Image src="/techIcons/CSS3.svg" alt="CSS3" className="tech-icon" />
         CSS3
     </> },
     { content: <>
-        <img src="/techIcons/FastAPI.svg" alt="FastAPI" className="tech-icon" />
+        <Image src="/techIcons/FastAPI.svg" alt="FastAPI" className="tech-icon" />
         FastAPI
     </> },
     { content: <>
-        <img src="/techIcons/Firebase.svg" alt="Firebase" className="tech-icon" />
+        <Image src="/techIcons/Firebase.svg" alt="Firebase" className="tech-icon" />
         Firebase
     </> },
     { content: <>
-        <img src="/techIcons/Git.svg" alt="Git" className="tech-icon" />
+        <Image src="/techIcons/Git.svg" alt="Git" className="tech-icon" />
         Git
     </> },
     { content: <>
-        <img src="/techIcons/GitHub.svg" alt="GitHub" className="tech-icon" />
+        <Image src="/techIcons/GitHub.svg" alt="GitHub" className="tech-icon" />
         GitHub
     </> },
     { content: <>
-        <img src="/techIcons/GitLab.svg" alt="GitLab" className="tech-icon" />
+        <Image src="/techIcons/GitLab.svg" alt="GitLab" className="tech-icon" />
         GitLab
     </> },
     { content: <>
-        <img src="/techIcons/Inkscape-.svg" alt="Inkscape" className="tech-icon" />
+        <Image src="/techIcons/Inkscape-.svg" alt="Inkscape" className="tech-icon" />
         Inkscape
     </> },
     { content: <>
-        <img src="/techIcons/IntelliJ-IDEA.svg" alt="IntelliJ IDEA" className="tech-icon" />
+        <Image src="/techIcons/IntelliJ-IDEA.svg" alt="IntelliJ IDEA" className="tech-icon" />
         IntelliJ IDEA
     </> },
     { content: <>
-        <img src="/techIcons/Java.svg" alt="Java" className="tech-icon" />
+        <Image src="/techIcons/Java.svg" alt="Java" className="tech-icon" />
         Java
     </> },
     { content: <>
-        <img src="/techIcons/JavaScript.svg" alt="JavaScript" className="tech-icon" />
+        <Image src="/techIcons/JavaScript.svg" alt="JavaScript" className="tech-icon" />
         JavaScript
     </> },
     { content: <>
-        <img src="/techIcons/Jenkins.svg" alt="Jenkins" className="tech-icon" />
+        <Image src="/techIcons/Jenkins.svg" alt="Jenkins" className="tech-icon" />
         Jenkins
     </> },
     { content: <>
-        <img src="techIcons/Jira.svg" alt="Jira" className="tech-icon" />
+        <Image src="techIcons/Jira.svg" alt="Jira" className="tech-icon" />
         Jira
     </> },
     { content: <>
-        <img src="/techIcons/Keras.svg" alt="Keras" className="tech-icon" />
+        <Image src="/techIcons/Keras.svg" alt="Keras" className="tech-icon" />
         Keras
     </> },
     { content: <>
-        <img src="/techIcons/Kotlin.svg" alt="Kotlin" className="tech-icon" />
+        <Image src="/techIcons/Kotlin.svg" alt="Kotlin" className="tech-icon" />
         Kotlin
     </> },
     { content: <>
-        <img src="/techIcons/Kubernetes.svg" alt="Kubernetes" className="tech-icon" />
+        <Image src="/techIcons/Kubernetes.svg" alt="Kubernetes" className="tech-icon" />
         Kubernetes
     </> },
     { content: <>
-        <img src="/techIcons/Linux.svg" alt="Linux" className="tech-icon" />
+        <Image src="/techIcons/Linux.svg" alt="Linux" className="tech-icon" />
         Linux
     </> },
     { content: <>
-        <img src="/techIcons/MongoDB.svg" alt="MongoDB" className="tech-icon" />
+        <Image src="/techIcons/MongoDB.svg" alt="MongoDB" className="tech-icon" />
         MongoDB
     </> },
     { content: <>
-        <img src="/techIcons/MySQL.svg" alt="MySQL" className="tech-icon" />
+        <Image src="/techIcons/MySQL.svg" alt="MySQL" className="tech-icon" />
         MySQL
     </> },
     { content: <>
-        <img src="/techIcons/Next.js.svg" alt="Next.js" className="tech-icon" />
+        <Image src="/techIcons/Next.js.svg" alt="Next.js" className="tech-icon" />
         Next.js
     </> },
     { content: <>
-        <img src="/techIcons/Node.js.svg" alt="Node.js" className="tech-icon" />
+        <Image src="/techIcons/Node.js.svg" alt="Node.js" className="tech-icon" />
         Node.js
     </> },
     { content: <>
-        <img src="/techIcons/Postman.svg" alt="Postman" className="tech-icon" />
+        <Image src="/techIcons/Postman.svg" alt="Postman" className="tech-icon" />
         Postman
     </> },
     { content: <>
-        <img src="/techIcons/Powershell.svg" alt="PowerShell" className="tech-icon" />
+        <Image src="/techIcons/Powershell.svg" alt="PowerShell" className="tech-icon" />
         PowerShell
     </> },
     { content: <>
-        <img src="/techIcons/Python.svg" alt="Python" className="tech-icon" />
+        <Image src="/techIcons/Python.svg" alt="Python" className="tech-icon" />
         Python
     </> },
     { content: <>
-        <img src="/techIcons/PyTorch.svg" alt="PyTorch" className="tech-icon" />
+        <Image src="/techIcons/PyTorch.svg" alt="PyTorch" className="tech-icon" />
         PyTorch
     </> },
     { content: <>
-        <img src="/techIcons/Redis.svg" alt="Redis" className="tech-icon" />
+        <Image src="/techIcons/Redis.svg" alt="Redis" className="tech-icon" />
         Redis
     </> },
     { content: <>
-        <img src="/techIcons/Spring.svg" alt="Springboot" className="tech-icon" />
+        <Image src="/techIcons/Spring.svg" alt="Springboot" className="tech-icon" />
         Springboot
     </> },
     { content: <>
-        <img src="/techIcons/Streamlit.svg" alt="Streamlit" className="tech-icon" />
+        <Image src="/techIcons/Streamlit.svg" alt="Streamlit" className="tech-icon" />
         Streamlit
     </> },
     { content: <>
-        <img src="/techIcons/TailwindCSS.svg" alt="Tailwind-CSS" className="tech-icon" />
+        <Image src="/techIcons/TailwindCSS.svg" alt="Tailwind-CSS" className="tech-icon" />
         Tailwind-CSS
     </> },
     { content: <>
-        <img src="/techIcons/TensorFlow.svg" alt="TensorFlow" className="tech-icon" />
+        <Image src="/techIcons/TensorFlow.svg" alt="TensorFlow" className="tech-icon" />
         TensorFlow
     </> },
     { content: <>
-        <img src="/techIcons/TypeScript.svg" alt="TypeScript" className="tech-icon" />
+        <Image src="/techIcons/TypeScript.svg" alt="TypeScript" className="tech-icon" />
         TypeScript
     </> },
     { content: <>
-        <img src="/techIcons/VSC.svg" alt="Visual Studio Code" className="tech-icon" />
+        <Image src="/techIcons/VSC.svg" alt="Visual Studio Code" className="tech-icon" />
         Visual Studio Code
     </> },
   ];
@@ -220,7 +222,7 @@ export const BentoGridItem = ({
       <div className={`${id === 6 && 'flex justify-center'} h-full`}>
         <div className="w-full h-full absolute">
           {img && (
-            <img
+            <Image
               src={img}
               alt={img}
               className={cn(imgClassName, 'object-cover object-center')}
@@ -233,7 +235,7 @@ export const BentoGridItem = ({
           }`}
         >
           {spareImg && (
-            <img
+            <Image
               src={spareImg}
               alt={spareImg}
               className="object-cover object-center w-full h-full"

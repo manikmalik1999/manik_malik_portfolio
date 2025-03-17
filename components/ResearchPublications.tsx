@@ -29,7 +29,7 @@ export const ResearchPublications = () => {
               Published in IJFMR Volume 7, Issue 1, Jan-Feb 2025
             </TextRevealCardTitle>
             <TextRevealCardDescription>
-            This paper introduces a transformative approach leveraging Docker’s lightweight containerization and Kubernetes’ robust orchestration to redefine LLM deployment. Our proposed architecture ensures seamless scalability, optimal resource utilization, and multi-cloud flexibility, while addressing ethical, environmental, and security concerns. Through compelling case studies, we demonstrate how these technologies revolutionize AI workflows, delivering unmatched performance, cost savings, and operational excellence for large-scale LLM production systems.
+            This paper introduces a transformative approach leveraging Docker&apos;s lightweight containerization and Kubernetes&apos; robust orchestration to redefine LLM deployment. Our proposed architecture ensures seamless scalability, optimal resource utilization, and multi-cloud flexibility, while addressing ethical, environmental, and security concerns. Through compelling case studies, we demonstrate how these technologies revolutionize AI workflows, delivering unmatched performance, cost savings, and operational excellence for large-scale LLM production systems.
             </TextRevealCardDescription>
           </TextRevealCard>
         </a>

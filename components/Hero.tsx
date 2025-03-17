@@ -16,7 +16,7 @@ const Hero = () => {
           className="text-center text-[40px] md:text-5xl lg:text-6xl"
         />
         <p className="text-center md:tracking-wider mt-4 mb-4 text-sm md:text-lg lg:text-2xl">
-          Hi, I'm Shikhar, a digital craftsman from Germany. I blend AI, cloud-native innovation, and a dash of caffeine to convert raw ideas into intelligent, scalable systems. Say goodbye to buggy code and hello to automation that truly works!
+          Hi, I&apos;m Shikhar, a digital craftsman from Germany. I blend AI, cloud-native innovation, and a dash of caffeine to convert raw ideas into intelligent, scalable systems. Say goodbye to buggy code and hello to automation that truly works!
         </p>
         <a href="#about">
           <MagicButton

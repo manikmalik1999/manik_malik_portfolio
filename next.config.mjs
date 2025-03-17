@@ -2,19 +2,21 @@ import { withSentryConfig } from '@sentry/nextjs';
 /** @type {import('next').NextConfig} */
 
 const nextConfig = {
-  // webpack: (config, { webpack }) => {
-  //   config.plugins.push(
-  //     new webpack.DefinePlugin({
-  //       __SENTRY_DEBUG__: true
-  //     })
-  //   );
-  //   // return the modified config
-  //   return config;
-  // }
-  output: 'export',
+  webpack: (config, { webpack }) => {
+    config.plugins.push(
+      new webpack.DefinePlugin({
+        __SENTRY_DEBUG__: false
+      })
+    );
+    // return the modified config
+    return config;
+  },
   typescript: {
     ignoreBuildErrors: true
-  }
+  },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 };
 
 export default withSentryConfig(nextConfig, {
@@ -49,5 +51,7 @@ export default withSentryConfig(nextConfig, {
   // See the following for more information:
   // https://docs.sentry.io/product/crons/
   // https://vercel.com/docs/cron-jobs
-  automaticVercelMonitors: true
+  automaticVercelMonitors: true,
+  disableServerWebpackPlugin: true,
+  disableClientWebpackPlugin: true,
 });

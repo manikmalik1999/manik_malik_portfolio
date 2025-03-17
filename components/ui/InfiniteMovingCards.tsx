@@ -2,6 +2,7 @@
 
 import { cn } from '@/utils/cn';
 import React, { useEffect, useState } from 'react';
+import Image from 'next/image';
 
 type ContentItem = 
   | { 
@@ -117,10 +118,12 @@ export const InfiniteMovingCards = ({
                 </span>
                 <div className="relative z-20 mt-6 flex flex-row items-center">
                   <div className="me-3">
-                    <img
+                    <Image
                       src={item.profileImg}
                       alt={item.name}
-                      className="w-12 h-12 rounded-full object-cover"
+                      width={48}
+                      height={48}
+                      className="rounded-full object-cover"
                     />
                   </div>
                   <div className="flex flex-col gap-1">
@@ -135,12 +138,14 @@ export const InfiniteMovingCards = ({
               </blockquote>
             ) : (
               <div className="flex flex-col items-center justify-center h-full">
-                <img
+                <Image
                   src={item.profileImg}
                   alt={item.name}
+                  width={variant === 'tech' ? 64 : 80}
+                  height={variant === 'tech' ? 64 : 80}
                   className={cn(
                     'object-contain transition-transform duration-300',
-                    variant === 'tech' ? 'w-16 h-16 group-hover:scale-110' : 'w-20 h-20'
+                    variant === 'tech' ? 'group-hover:scale-110' : ''
                   )}
                 />
                 <span className={cn(
