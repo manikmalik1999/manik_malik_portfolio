@@ -1,9 +1,17 @@
 import React from 'react';
-
 import { InfiniteMovingCards } from './ui/InfiniteMovingCards';
 import { companies, testimonials } from '@/data';
 
 const Clients = () => {
+  // Transform testimonials to match the new ContentItem type
+  const formattedTestimonials = testimonials.map(testimonial => ({
+    type: 'testimonial' as const,
+    quote: testimonial.quote,
+    name: testimonial.name,
+    title: testimonial.title,
+    profileImg: testimonial.profileImg
+  }));
+
   return (
     <div className="py-20" id="testimonials">
       <h1 className="heading">
@@ -13,9 +21,11 @@ const Clients = () => {
       <div className="flex flex-col items-center max-lg:mt-10">
         <div className="h-[50vh] md:h-[30rem] rounded-md flex flex-col antialiased items-center justify-center relative overflow-hidden">
           <InfiniteMovingCards
-            items={testimonials}
+            items={formattedTestimonials}
+            variant="testimonial"
             direction="right"
             speed="slow"
+            className="[--animation-duration:40s]"
           />
         </div>
 

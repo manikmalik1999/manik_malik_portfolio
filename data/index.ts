@@ -3,7 +3,8 @@ export const navItems = [
   { name: 'Research', link: '#research' },
   { name: 'Projects', link: '#projects' },
   { name: 'Testimonials', link: '#testimonials' },
-  { name: 'Contact', link: '#contact' }
+  { name: 'Contact', link: '#contact' },
+  { name: 'TechStacks', link: '#TechStacks'}
 ];
 
 export const gridItems = [
@@ -238,5 +239,175 @@ export const socialMedia = [
   {
     id: 3,
     img: '/link.svg'
+  }
+];
+
+export const techItems = [
+  { 
+    type: 'tech' as const,
+    name: 'Android Studio',
+    profileImg: '/techIcons/AndroidStudio.svg'
+  },
+  { 
+    type: 'tech' as const,
+    name: 'AWS',
+    profileImg: '/techIcons/AWS.svg'
+  },
+  { 
+    type: 'tech' as const,
+    name: 'Azure DevOps',
+    profileImg: '/techIcons/AzureDevops.svg'
+  },
+  { 
+    type: 'tech' as const,
+    name: 'Confluence',
+    profileImg: '/techIcons/Confluence.svg'
+  },
+  { 
+    type: 'tech' as const,
+    name: 'Cosmos DB',
+    profileImg: '/techIcons/CosmosDB.svg'
+  },
+  { 
+    type: 'tech' as const,
+    name: 'CSS3',
+    profileImg: '/techIcons/CSS3.svg'
+  },
+  { 
+    type: 'tech' as const,
+    name: 'FastAPI',
+    profileImg: '/techIcons/FastAPI.svg'
+  },
+  { 
+    type: 'tech' as const,
+    name: 'Firebase',
+    profileImg: '/techIcons/Firebase.svg'
+  },
+  { 
+    type: 'tech' as const,
+    name: 'Git',
+    profileImg: '/techIcons/Git.svg'
+  },
+  { 
+    type: 'tech' as const,
+    name: 'GitHub',
+    profileImg: '/techIcons/GitHub.svg'
+  },
+  { 
+    type: 'tech' as const,
+    name: 'GitLab',
+    profileImg: '/techIcons/GitLab.svg'
+  },
+  { 
+    type: 'tech' as const,
+    name: 'Inkscape',
+    profileImg: '/techIcons/Inkscape-.svg'
+  },
+  { 
+    type: 'tech' as const,
+    name: 'IntelliJ IDEA',
+    profileImg: '/techIcons/IntelliJ-IDEA.svg'
+  },
+  { 
+    type: 'tech' as const,
+    name: 'Java',
+    profileImg: '/techIcons/Java.svg'
+  },
+  { 
+    type: 'tech' as const,
+    name: 'JavaScript',
+    profileImg: '/techIcons/JavaScript.svg'
+  },
+  { 
+    type: 'tech' as const,
+    name: 'Jenkins',
+    profileImg: '/techIcons/Jenkins.svg'
+  },
+  { 
+    type: 'tech' as const,
+    name: 'Jira',
+    profileImg: '/techIcons/Jira.svg'
+  },
+  { 
+    type: 'tech' as const,
+    name: 'Keras',
+    profileImg: '/techIcons/Keras.svg'
+  },
+  { 
+    type: 'tech' as const,
+    name: 'Kotlin',
+    profileImg: '/techIcons/Kotlin.svg'
+  },
+  { 
+    type: 'tech' as const,
+    name: 'Kubernetes',
+    profileImg: '/techIcons/Kubernetes.svg'
+  },
+  { 
+    type: 'tech' as const,
+    name: 'Linux',
+    profileImg: '/techIcons/Linux.svg'
+  },
+  { 
+    type: 'tech' as const,
+    name: 'MongoDB',
+    profileImg: '/techIcons/MongoDB.svg'
+  },
+  { 
+    type: 'tech' as const,
+    name: 'MySQL',
+    profileImg: '/techIcons/MySQL.svg'
+  },
+  { 
+    type: 'tech' as const,
+    name: 'Next.js',
+    profileImg: '/techIcons/Next.js.svg'
+  },
+  { 
+    type: 'tech' as const,
+    name: 'Node.js',
+    profileImg: '/techIcons/Node.js.svg'
+  },
+  { 
+    type: 'tech' as const,
+    name: 'Postman',
+    profileImg: '/techIcons/Postman.svg'
+  },
+  { 
+    type: 'tech' as const,
+    name: 'PowerShell',
+    profileImg: '/techIcons/Powershell.svg'
+  },
+  { 
+    type: 'tech' as const,
+    name: 'Python',
+    profileImg: '/techIcons/Python.svg'
+  }
+];
+
+export const projectsNew = [
+  {
+    image: '/image2.svg',
+    link: 'https://github.com/Shiikharr/CapstoneProject',
+    title: 'VITConnect Application',
+    description: 'A social media app for VIT students, alumni, and faculty with authentication, posts, likes, comments, and inbuilt chat.',
+  },
+  {
+    image: '/image3.svg',
+    link: 'https://github.com/Shiikharr/CovidCensus',
+    title: 'CovidCensus - Android App',
+    description: 'An Android app displaying global Covid-19 stats and vaccination availability in India via government APIs.',
+  },
+  {
+    image: '/image4.svg',
+    link: 'https://github.com/aayushjaimani1/BillingApp',
+    title: 'Invoice2Ease Website',
+    description: 'A modular Android app with advanced inventory forecasting and tailored recommendations using data-driven insights.',
+  },
+  {
+    image: '/image6.svg',
+    link: 'https://shiikharr.github.io/onlineCodeEditor-deploy/',
+    title: 'Online Code Editor and live Rendering',
+    description: 'A website with syntax highlighting for HTML, CSS, and JS, plus a live preview.',
   }
 ];
