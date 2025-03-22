@@ -11,7 +11,7 @@ export function MyIntroduction() {
     },
     {
         quote:
-          "The attention to detail and innovative features have completely transformed our workflow. This is exactly what we've been looking for.",
+          "At FAU, I’ve mastered the art of explaining Kubernetes to my Kaffeeautomat—because even machines deserve a patient teacher (and caffeine-fueled pep talks).",
         name: "Shikhar Srivastava",
         designation: "Master's in Data Science Student at Friedrich-Alexander-Universität-Erlangen-Nürnberg",
         src: "/shikharFauPhoto.jpeg",

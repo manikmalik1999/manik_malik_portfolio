@@ -52,15 +52,22 @@ export type GlobeConfig = {
   autoRotate?: boolean;
   autoRotateSpeed?: number;
 };
+interface Marker {
+  lat: number;
+  lng: number;
+  color: string;
+  size?: number;
+}
 
 interface WorldProps {
   globeConfig: GlobeConfig;
   data: Position[];
+  markers?: Marker[]; // Add markers prop
 }
 
 let numbersOfRings = [0];
 
-export function Globe({ globeConfig, data }: WorldProps) {
+export function Globe({ globeConfig, data, markers = [] }: WorldProps) {
   const [globeData, setGlobeData] = useState<
     | {
         size: number;
@@ -92,11 +99,14 @@ export function Globe({ globeConfig, data }: WorldProps) {
   };
 
   useEffect(() => {
-    if (globeRef.current) {
-      _buildData();
-      _buildMaterial();
+    if (globeRef.current && markers.length > 0) {
+      globeRef.current
+        .pointsData(markers)
+        .pointColor((e: any) => (e as Marker).color)
+        .pointAltitude(0.0)
+        .pointRadius((e: any) => (e as Marker).size || 2);
     }
-  }, [globeRef.current]);
+  }, [markers]);
 
   const _buildMaterial = () => {
     if (!globeRef.current) return;

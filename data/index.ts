@@ -1,5 +1,5 @@
 export const navItems = [
-  { name: 'About', link: '#about' },
+  { name: 'About', link: '#myintroduction' },
   { name: 'Research', link: '#research' },
   { name: 'Projects', link: '#projects' },
   { name: 'Testimonials', link: '#testimonials' },
@@ -230,15 +230,18 @@ export const workExperience = [
 export const socialMedia = [
   {
     id: 1,
-    img: '/git.svg'
+    img: '/git.svg',
+    url: 'https://github.com/Shiikharr' // Replace with your GitHub URL
   },
   {
     id: 2,
-    img: '/twit.svg'
+    img: '/insta.svg',
+    url: 'https://www.instagram.com/shiikharr/' // Replace with your Twitter URL
   },
   {
     id: 3,
-    img: '/link.svg'
+    img: '/link.svg',
+    url: 'https://www.linkedin.com/in/shiikharr/' // Replace with your LinkedIn URL
   }
 ];
 
@@ -387,27 +390,27 @@ export const techItems = [
 
 export const projectsNew = [
   {
-    image: '/image2.svg',
+    image: '/vitConnect1.png',
     link: 'https://github.com/Shiikharr/CapstoneProject',
-    title: 'VITConnect Application',
-    description: 'A social media app for VIT students, alumni, and faculty with authentication, posts, likes, comments, and inbuilt chat.',
+    title: 'VITConnect',
+    description: 'A social media app for VIT students, alumni, and faculty with authentication, posts, likes, comments, and inbuilt chat.'
   },
   {
-    image: '/image3.svg',
+    image: '/covidCensus.png',
     link: 'https://github.com/Shiikharr/CovidCensus',
-    title: 'CovidCensus - Android App',
-    description: 'An Android app displaying global Covid-19 stats and vaccination availability in India via government APIs.',
+    title: 'CovidCensus',
+    description: 'An Android app displaying global Covid-19 stats and vaccination availability in India via government APIs.'
   },
   {
-    image: '/image4.svg',
+    image: '/invoice2Ease1.png',
     link: 'https://github.com/aayushjaimani1/BillingApp',
-    title: 'Invoice2Ease Website',
-    description: 'A modular Android app with advanced inventory forecasting and tailored recommendations using data-driven insights.',
+    title: 'Invoice2Ease',
+    description: 'A modular Android app with advanced inventory forecasting and tailored recommendations using data-driven insights.'
   },
   {
-    image: '/image6.svg',
+    image: '/onlineCE.png',
     link: 'https://shiikharr.github.io/onlineCodeEditor-deploy/',
-    title: 'Online Code Editor and live Rendering',
-    description: 'A website with syntax highlighting for HTML, CSS, and JS, plus a live preview.',
+    title: 'CE&Rendering',
+    description: 'A website with syntax highlighting for HTML, CSS, and JS, plus a live preview.'
   }
 ];

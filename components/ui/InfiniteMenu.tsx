@@ -851,12 +851,14 @@ class InfiniteGridMenu {
   private init(onInit?: InitCallback): void {
     const gl = this.canvas.getContext("webgl2", {
       antialias: true,
-      alpha: false,
+      alpha: true,
     });
     if (!gl) {
       throw new Error("No WebGL 2 context!");
     }
     this.gl = gl;
+    gl.enable(gl.BLEND);
+    gl.blendFunc(gl.SRC_ALPHA, gl.ONE_MINUS_SRC_ALPHA);
 
     vec2.set(
       this.viewportSize,
@@ -1110,6 +1112,7 @@ class InfiniteGridMenu {
     gl.enable(gl.CULL_FACE);
     gl.enable(gl.DEPTH_TEST);
 
+    // Clear with transparent background
     gl.clearColor(0, 0, 0, 0);
     gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
 
@@ -1331,11 +1334,11 @@ const InfiniteMenu: FC<InfiniteMenuProps> = ({ items = [] }) => {
   };
 
   return (
-    <div className="relative w-full h-full">
+    <div className="relative w-full h-full bg-transparent">
       <canvas
         id="infinite-grid-menu-canvas"
         ref={canvasRef}
-        className="cursor-grab w-full h-full overflow-hidden relative outline-none active:cursor-grabbing"
+        className="cursor-grab w-full h-full overflow-hidden relative outline-none active:cursor-grabbing bg-transparent"
       />
 
       {activeItem && (
@@ -1354,6 +1357,11 @@ const InfiniteMenu: FC<InfiniteMenuProps> = ({ items = [] }) => {
           -translate-y-1/2
           transition-all
           ease-[cubic-bezier(0.25,0.1,0.25,1.0)]
+          text-indigo-500
+          bg-slate-900/50 // Semi-transparent black background
+          px-2 // Add horizontal padding
+          py-1 // Add vertical padding
+          rounded-lg // Rounded corners
           ${
             isMoving
               ? "opacity-0 pointer-events-none duration-[100ms]"
@@ -1375,6 +1383,11 @@ const InfiniteMenu: FC<InfiniteMenuProps> = ({ items = [] }) => {
           right-[1%]
           transition-all
           ease-[cubic-bezier(0.25,0.1,0.25,1.0)]
+          text-white // Ensure the text color contrasts with the background
+        bg-slate-900/50 // Semi-transparent black background
+          px-2 // Add horizontal padding
+          py-1 // Add vertical padding
+          rounded-lg // Rounded corners
           ${
             isMoving
               ? "opacity-0 pointer-events-none duration-[100ms] translate-x-[-60%] -translate-y-1/2"
@@ -1396,7 +1409,7 @@ const InfiniteMenu: FC<InfiniteMenuProps> = ({ items = [] }) => {
           h-[60px]
           grid
           place-items-center
-          bg-[#00ffff]
+          bg-yellow-300
           border-[5px]
           border-black
           rounded-full
