@@ -4,7 +4,7 @@ import Grid from '@/components/Grid';
 import { FloatingNav } from '@/components/ui/FloatingNav';
 import { navItems } from '@/data';
 import Clients from '@/components/Clients';
-import Experience from '@/components/Experience';
+// import Experience from '@/components/Experience';
 import Approach from '@/components/Approach';
 import Footer from '@/components/Footer';
 import { ResearchPublications } from '@/components/ResearchPublications'; // Import the new component
@@ -27,7 +27,7 @@ export default function Home() {
         <Projects/>
         {/* <Grid /> */}
         <ResearchPublications />
-        <Experience />
+        {/* <Experience /> */}
         <Clients />
         <Approach />
         <Footer />
