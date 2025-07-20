@@ -3,7 +3,7 @@ import { projectsNew } from "@/data";
 
 const Projects = () => {
     const handleOpenResume = () => {
-      window.open('/resume.pdf', '_blank');
+      window.open('/CV_SDE_Temp.pdf', '_blank');
     };
   
     return (

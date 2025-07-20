@@ -6,7 +6,7 @@ import { FaLocationArrow } from "react-icons/fa6";
 
 const FlowingMenuDemo = () => {
   const handleOpenResume = () => {
-    window.open('/resume.pdf', '_blank');
+    window.open('/CV_SDE_Temp.pdf', '_blank');
   };
   const demoItems = [
     { link: 'https://www.fau.de/', text: 'M.Sc in Data Science', image: '/faulogo.png' },
