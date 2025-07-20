@@ -109,28 +109,28 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "I highly recommend Mr. Shikhar Srivastava, an exceptional Software Engineer whose technical expertise and problem-solving skills have been invaluable to our team at Bajaj Finserv. His deep understanding of system integration and software development has significantly enhanced our platform’s efficiency and reliability. Shikhar is proactive, innovative, and consistently delivers high-quality solutions that go beyond fixing issues—they optimize entire systems. His dedication, ability to tackle complex challenges, and passion for learning make him a standout engineer and a true asset to any organization.",
+      "I highly recommend Mr. Manik Srivastava, an exceptional Software Engineer whose technical expertise and problem-solving skills have been invaluable to our team at Bajaj Finserv. His deep understanding of system integration and software development has significantly enhanced our platform’s efficiency and reliability. Manik is proactive, innovative, and consistently delivers high-quality solutions that go beyond fixing issues—they optimize entire systems. His dedication, ability to tackle complex challenges, and passion for learning make him a standout engineer and a true asset to any organization.",
     name: 'Arpit Mahajan',
     title: 'Integration Manager - Bajaj Finance Limited',
     profileImg: "/profile2.svg"
   },
   {
     quote:
-      "I am proud to recommend Shikhar Srivastava as an exceptional student with a strong grasp of computer science fundamentals, particularly in Data Structures, Algorithms, Database Management Systems, and Computer Networks. His ability to apply theoretical concepts to practical implementations, including developing a COVID awareness mobile app, sets him apart. As a placement cell officer, I witnessed his dedication, leadership, and willingness to support peers even after securing a job.",
+      "I am proud to recommend Manik Srivastava as an exceptional student with a strong grasp of computer science fundamentals, particularly in Data Structures, Algorithms, Database Management Systems, and Computer Networks. His ability to apply theoretical concepts to practical implementations, including developing a COVID awareness mobile app, sets him apart. As a placement cell officer, I witnessed his dedication, leadership, and willingness to support peers even after securing a job.",
     name: 'Dr. R. Shriram',
     title: 'Programme Chair of Gaming Technology in CSE - VIT Bhopal',
     profileImg: "/profile3.png"
   },
   {
     quote:
-      "Shikhar Srivastava consistently demonstrated outstanding analytical abilities and dedication during his coursework in Differential and Difference Equations. His conceptual clarity, precision in mathematical applications, and innovative project work set him apart. Beyond academics, he excelled in extracurricular activities, balancing teamwork and individual contributions with infectious enthusiasm. Having mentored him for four years, I am confident in his work ethic and adaptability to challenges.",
+      "Manik Srivastava consistently demonstrated outstanding analytical abilities and dedication during his coursework in Differential and Difference Equations. His conceptual clarity, precision in mathematical applications, and innovative project work set him apart. Beyond academics, he excelled in extracurricular activities, balancing teamwork and individual contributions with infectious enthusiasm. Having mentored him for four years, I am confident in his work ethic and adaptability to challenges.",
     name: 'Dr. Reena Jain',
     title: 'Associate Professor / COE - VIT Bhopal',
     profileImg: "/profile4.png"
   },
   {
     quote:
-      "Shikhar Srivastava is an exceptional student with a proven track record of academic excellence and dynamic leadership. Over four years, he distinguished himself through top-tier academic performance, innovative project collaborations, and a keen interest in emerging technologies. As a proactive leader, he organized workshops, led clubs, and contributed significantly to university committees. His strong communication skills, technical acumen, and consistent drive for growth make him an ideal candidate for advanced studies.",
+      "Manik Srivastava is an exceptional student with a proven track record of academic excellence and dynamic leadership. Over four years, he distinguished himself through top-tier academic performance, innovative project collaborations, and a keen interest in emerging technologies. As a proactive leader, he organized workshops, led clubs, and contributed significantly to university committees. His strong communication skills, technical acumen, and consistent drive for growth make him an ideal candidate for advanced studies.",
     name: 'Dr. Neha Choubey',
     title: 'Senior Assistant Professor - VIT Bhopal',
     profileImg: "/profile5.png"
