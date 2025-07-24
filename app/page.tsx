@@ -26,7 +26,7 @@ export default function Home() {
         <FlowingMenuDemo/>
         <Projects/>
         {/* <Grid /> */}
-        <ResearchPublications />
+        {/*<ResearchPublications />*/}
         {/* <Experience /> */}
         <Clients />
         <Approach />

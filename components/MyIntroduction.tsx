@@ -13,7 +13,7 @@ export function MyIntroduction() {
         quote:
           "At FAU, I’ve mastered the art of explaining Kubernetes to my Kaffeeautomat—because even machines deserve a patient teacher (and caffeine-fueled pep talks).",
         name: "Manik Malik",
-        designation: "Master's in Data Science Student at Friedrich-Alexander-Universität-Erlangen-Nürnberg",
+        designation: "Master's in Computational Engineering at Friedrich-Alexander-Universität-Erlangen-Nürnberg",
         src: "/manik_malik_1.jpeg",
       }
   ];

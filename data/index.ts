@@ -1,6 +1,6 @@
 export const navItems = [
   { name: 'About', link: '#myintroduction' },
-  { name: 'Research', link: '#research' },
+  // { name: 'Research', link: '#research' },
   { name: 'Projects', link: '#projects' },
   { name: 'Testimonials', link: '#testimonials' },
   { name: 'Contact', link: '#contact' },
@@ -109,31 +109,35 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "I highly recommend Mr. Manik Srivastava, an exceptional Software Engineer whose technical expertise and problem-solving skills have been invaluable to our team at Bajaj Finserv. His deep understanding of system integration and software development has significantly enhanced our platform’s efficiency and reliability. Manik is proactive, innovative, and consistently delivers high-quality solutions that go beyond fixing issues—they optimize entire systems. His dedication, ability to tackle complex challenges, and passion for learning make him a standout engineer and a true asset to any organization.",
-    name: 'Arpit Mahajan',
-    title: 'Integration Manager - Bajaj Finance Limited',
-    profileImg: "/profile2.svg"
+      "I had the pleasure of working closely with Manik at ZS, where he showcased exceptional technical and problem-solving skills in building a robust pipeline for data integration and ingestion. His work in integrating complex drug sales and patient claims data was crucial for streamlining our reporting processes. Manik’s attention to detail and ability to translate business requirements into scalable, efficient data solutions were truly impressive. He not only delivered high-quality results but also ensured that the systems were designed for long-term sustainability and ease of use. His collaborative approach and proactive communication made him an invaluable team player, always willing to share insights and mentor new team members. Manik’s expertise in data management and his capacity to tackle challenging tasks with precision and creativity were key to the success of the patient claims and sales integration project.",
+    name: 'Parul Chaurasia',
+    title: 'Business Analyst - II at Amazon',
+    profileImg: "/profile2.jpeg"
   },
   {
     quote:
-      "I am proud to recommend Manik Srivastava as an exceptional student with a strong grasp of computer science fundamentals, particularly in Data Structures, Algorithms, Database Management Systems, and Computer Networks. His ability to apply theoretical concepts to practical implementations, including developing a COVID awareness mobile app, sets him apart. As a placement cell officer, I witnessed his dedication, leadership, and willingness to support peers even after securing a job.",
-    name: 'Dr. R. Shriram',
-    title: 'Programme Chair of Gaming Technology in CSE - VIT Bhopal',
-    profileImg: "/profile3.png"
+      "Manik was a member of my team and reported directly to me for 1.5 years during his tenure at ZS. He was an integral part of the team, consistently demonstrating motivation and dedication throughout the project. His quick onboarding within a short period highlighted his strong determination and rapid learning abilities. Manik worked on sales data for one of the largest pharmaceutical clients, where he developed numerous complex ETL pipelines—an especially challenging task.\n" +
+        "\n" +
+        "He is an excellent team player, seamlessly integrating with the team and providing invaluable support during critical project phases. His intelligence and exceptional analytical skills were crucial in enabling the team to deliver a highly complex project on time and with 100% accuracy.\n" +
+        "\n" +
+        "The team, ZS Leadership, and I were highly impressed with Manik’s performance; he was truly an asset to the firm. I wish him great success in all future roles, confident that he will continue to excel.",
+    name: 'Akshay Pathade',
+    title: 'Business Analyst - II at Amazon',
+    profileImg: "/profile3.jpeg"
   },
   {
     quote:
-      "Manik Srivastava consistently demonstrated outstanding analytical abilities and dedication during his coursework in Differential and Difference Equations. His conceptual clarity, precision in mathematical applications, and innovative project work set him apart. Beyond academics, he excelled in extracurricular activities, balancing teamwork and individual contributions with infectious enthusiasm. Having mentored him for four years, I am confident in his work ethic and adaptability to challenges.",
-    name: 'Dr. Reena Jain',
-    title: 'Associate Professor / COE - VIT Bhopal',
-    profileImg: "/profile4.png"
+      "Manik is a leader and a follower. He works harmoniously within a team, encourages his peers, has a positive and can-do outlook to life. Manik has a good logical understanding of his own capabilities and the environment he works in and can take up initiatives and commit to them till they come to fruition. ",
+    name: 'Deepika Nanda',
+    title: 'Designer - II at Microsoft',
+    profileImg: "/profile4.jpeg"
   },
   {
     quote:
-      "Manik Srivastava is an exceptional student with a proven track record of academic excellence and dynamic leadership. Over four years, he distinguished himself through top-tier academic performance, innovative project collaborations, and a keen interest in emerging technologies. As a proactive leader, he organized workshops, led clubs, and contributed significantly to university committees. His strong communication skills, technical acumen, and consistent drive for growth make him an ideal candidate for advanced studies.",
-    name: 'Dr. Neha Choubey',
-    title: 'Senior Assistant Professor - VIT Bhopal',
-    profileImg: "/profile5.png"
+      "Manik is a smart and fast learner who is highly keen to explore different roles and give his best at all. He also possess great leadership skill with technically sound mindset. Happy to recommend him for any role he wish to pursue. ",
+    name: 'Paritosh Sankhla',
+    title: 'Sr. Brand Manager @Coschool',
+    profileImg: "/profile5.jpeg"
   }
 ];
 
@@ -173,75 +177,58 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: 'Senior Software Engineer',
-    company: 'Bajaj Finance Limited',
+    title: 'Werkstudent, Software Engineering & Automation',
+    company: 'Siemens AG',
     desc: [
-      'Increased online customer base by ~32% (100 Million+ on Playstore) in six months by developing and deploying the Quick QR Loan Scanner feature.',
-      'Designed and implemented an end-to-end Consumer Consent module, streamlining user authorization processes and ensuring compliance with regulatory requirements.',
-      'Developed and implemented AES 128 Encryption and SHA256-Hash for maintaining Data Integrity of the user.',
-      'Implemented a new authorization and authentication system called RBAC on Microservices',
-      'Developed 3 in-house web portals (HTML5, CSS, JavaScript) for internal usage of the company.',
-      'Led a team of three, conducted knowledge transfer sessions, and held monthly reviews to ensure clarity on work and timely delivery of project milestones.'
+      'Designed and developed 10+ full-stack internal tools using JavaScript, NodeJS, and Python (Flask) in an agile team, streamlining engineering workflows throughout the development lifecycle.',
+      'Integrated RESTful and GraphQL APIs to fetch and analyze data from Jira and GitLab, improving traceability and debugging efficiency.',
+      'Automated CI/CD pipelines with GitLab and GitHub, orchestrating test, build, and deployment processes for cross-platform environments.',
+      'Refactored core components of legacy tools to improve runtime efficiency (up to 3x speedup) and reduce memory overhead.'
     ],
     className: 'md:col-span-2',
     thumbnail: '/exp1.svg'
   },
   {
     id: 2,
-    title: 'Software Engineer',
-    company: 'Bajaj Finance Limited',
+    title: 'Master Thesis, Software Analytics Platform',
+    company: 'Team MecoIS',
     desc: [
-      'Designed and implemented scalable Microservices using Java Spring Boot, deployed on Azure Kubernetes Service (AKS) with Docker and Linux scripting.',
-      'Optimized RESTful APIs, reducing production issues by ~80% and enhancing system stability.',
-      'Integrated SAP APIs for efficient data retrieval and insertion.',
-      'Troubleshot and resolved technical issues with team collaboration, becoming a key problem-solving contact in critical meetings.',
-      'Achieved 90-100% code coverage with SonarQube and ensured robust automated testing using JUnit. Conducted load testing with JMeter, ensuring high performance during peak traffic.',
-      'Provided production support using ADX and KQL, maintaining system reliability during high-traffic days.'
+      'Engineered a Python-based modular platform for ingesting and analyzing GitHub and Jira data via REST APIs to derive actionable engineering metrics.',
+      'Designed data modeling and preprocessing pipelines using JSON and OpenAPI schemas to support efficient querying, reducing analysis latency by 40%.',
+      'Developed a full-stack web dashboard using TypeScript and Flask, exposing REST APIs for interactive analytics and reporting.'
     ],
     className: 'md:col-span-2',
     thumbnail: '/exp2.svg'
   },
   {
     id: 3,
-    title: 'Software Engineer Intern',
-    company: 'Bajaj Finance Limited',
+    title: 'Associate Data Engineer (Software Systems)',
+    company: 'ZS Associates',
     desc: [
-      'Gained hands-on experience with Java Spring Boot, Azure DevOps, and Apache Kafka for real-time data streaming in microservices architecture.',
-      'Proficiently worked with SQL and NoSQL databases, including MySQL, Oracle, and Azure Cosmos DB, ensuring efficient data management and integration.', 
-      'Reduced database hits and operational costs by ~50% through implementing advanced caching mechanisms in high-volume RESTful APIs.'
+      'Designed scalable data integration pipelines using AWS Glue and Python, managing 300+ heterogeneous data sources including JSON datasets.',
+      'Refactored data workflows to increase performance of reporting systems by 35%, enabling near real-time analytics.',
+      'Implemented automated data quality checks and validation workflows at every ingestion stage using Python-based frameworks.'
     ],
     className: 'md:col-span-2',
     thumbnail: '/exp3.svg'
-  },
-  {
-    id: 4,
-    title: 'Web development and design Intern',
-    company: 'The Sparks Foundation',
-    desc: [
-      'Developed a Basic Banking System using HTML, CSS, and JavaScript to facilitate virtual transactions.',
-      'Designed a web application that enables secure money transfers between users while maintaining a record of all banking transactions and activities.'
-    ],
-    className: 'md:col-span-2',
-    thumbnail: '/exp4.svg'
   }
 ];
-
 
 export const socialMedia = [
   {
     id: 1,
     img: '/git.svg',
-    url: 'https://github.com/Shiikharr' // Replace with your GitHub URL
+    url: 'https://github.com/manikmalik1999' // Replace with your GitHub URL
   },
   {
     id: 2,
-    img: '/insta.svg',
-    url: 'https://www.instagram.com/shiikharr/' // Replace with your Twitter URL
+    img: '/PU.svg',
+    url: 'https://www.instagram.com/manik_malik_/' // Replace with your Twitter URL
   },
   {
     id: 3,
     img: '/link.svg',
-    url: 'https://www.linkedin.com/in/shiikharr/' // Replace with your LinkedIn URL
+    url: 'https://www.linkedin.com/in/manikmalik1999/' // Replace with your LinkedIn URL
   }
 ];
 
@@ -392,8 +379,8 @@ export const projectsNew = [
   {
     image: '/vitConnect1.png',
     link: 'https://github.com/Shiikharr/CapstoneProject',
-    title: 'VITConnect',
-    description: 'A social media app for VIT students, alumni, and faculty with authentication, posts, likes, comments, and inbuilt chat.'
+    title: 'UIETConnect',
+    description: 'A social media app for UIET students, alumni, and faculty with authentication, posts, likes, comments, and inbuilt chat.'
   },
   {
     image: '/covidCensus.png',
