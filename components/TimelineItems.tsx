@@ -11,8 +11,8 @@ const FlowingMenuDemo = () => {
   const demoItems = [
     { link: 'https://www.fau.de/', text: 'M.Sc in Computational Engineering', image: '/faulogo.png' },
     { link: 'https://www.siemens.com/de/de.html', text: 'Werkstudent Software/Automation', image: '/siemens.jpeg' },
-    { link: 'https://www.bajajfinserv.in/', text: 'Associate Data Engineer', image: '/ZS.png' },
-    { link: 'https://vitbhopal.ac.in/', text: 'B.E in Electronics and Communications Engineering', image: '/pu.png' },
+    { link: 'https://www.zs.com/', text: 'Associate Data Engineer', image: '/ZS_logo.svg' },
+    { link: 'https://uiet.puchd.ac.in/', text: 'B.E in Electronics and Communications Engineering', image: '/pu.png' },
   ];
 
   return (
