@@ -13,9 +13,6 @@ import SplashCursor from '@/components/ui/SplashCursor';
 import TechStacks from '@/components/TechStacks';
 import FlowingMenuDemo from '@/components/TimelineItems';
 import Projects from '@/components/Projects';
-import ReactGA from "react-ga4";
-
-ReactGA.initialize("G-4JQHEYGE2F");
 
 export default function Home() {
   return (
